@@ -1,7 +1,7 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 import jwt from 'jsonwebtoken';
-
+import { sendMail } from '../utils/app';
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -43,4 +43,41 @@ export const login = async (body) => {
     throw new Error(error)
   }
 
+};
+
+//forget pwd
+export const  pwdForget = async (body) => {
+  const data = await User.findOne({ "email": body.email });
+  
+  if (data != null)
+  {
+    const token = await jwt.sign({ email: data.email, _id:User._id }, process.env.ResetKEY);
+    console.log('token ===========',token);  
+    const send = await sendMail(data.email, token);
+    return send;
+  } 
+  else
+  {
+    throw new Error("Email not found");
+  }
+}
+
+//reset pwd
+export const pwdReset = async (token, body) =>
+ {
+   const salt = 10;
+  const pwdHash = await bcrypt.hash(body.password,salt);
+  body.password = pwdHash; 
+  
+  const data = User.findOneAndUpdate(
+    {
+      email: body.email
+    },
+    {
+      password: body.password
+    },
+    {
+      new: true
+    })
+  return data;
 };

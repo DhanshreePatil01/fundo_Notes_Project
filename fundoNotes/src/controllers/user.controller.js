@@ -41,3 +41,40 @@ export const login =async(req,res,next) => {
     next(error);
   }
 };
+
+//Controller for forget password
+export const pwdForget = async (req, res, next) => {
+  try {
+    const data = await UserService.pwdForget(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Email sent.'
+    });
+  } catch (error) {
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: `Email not found`
+
+    });
+  }
+};
+
+//Controller for reset password
+export const pwdReset = async (req, res, next) => {
+  try
+  {
+    const data = await UserService.pwdReset(req.params.token, req.body);
+    
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password is Updated.'
+    });
+
+  } 
+  catch (error)
+  {
+    next(error);
+  }
+};

@@ -1,0 +1,26 @@
+info: ::1 - - [02/Feb/2023:21:16:26 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:18:07 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:19:42 +0000] "POST /api/v1/users/registration HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:19:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 204 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:21:07 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:21:36 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:23:27 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:24:22 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:25:45 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:29:32 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 553 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:21:29:59 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbUBnbWFpbC5jb20iLCJpYXQiOjE2NzUzNzMzNjd9.mtuXGqX8kJEy4e9VnL6zY4lbLwKvPGPZ7BbhFLTbYVY HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:21:29:59 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:21:30:59 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbUBnbWFpbC5jb20iLCJpYXQiOjE2NzUzNzMzNjd9.mtuXGqX8kJEy4e9VnL6zY4lbLwKvPGPZ7BbhFLTbYVY HTTP/1.1" 200 299 "-" "PostmanRuntime/7.30.1"
+
