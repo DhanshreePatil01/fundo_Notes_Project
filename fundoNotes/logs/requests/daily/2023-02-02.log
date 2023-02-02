@@ -1,0 +1,2 @@
+info: ::1 - - [02/Feb/2023:04:13:01 +0000] "POST /api/v1/users/registration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.1"
+

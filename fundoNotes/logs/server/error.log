@@ -1,0 +1,30 @@
+error: 
+      status - 13297
+      message - db already exists with different case already have: [sample] trying to create [Sample] 
+      url - /api/v1/users/registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-02T04:13:01.531Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 13297
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T04:13:01.561Z"}
