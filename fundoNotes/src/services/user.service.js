@@ -22,3 +22,25 @@ export const userRegistration = async (body) => {
     throw new Error("User already exist")
   }
 };
+
+//User Login Validation
+export const login = async (body) => {
+  try {
+    const userdata = await User.findOne({ email: body.email });
+    if (!userdata) {
+      throw new Error("Please Enter Valid Email....")
+    }
+    const validPassword = await bcrypt.compare(body.password, userdata.password);
+    if (!validPassword) {
+      throw new Error("Please Enter Valid Password....")
+    }
+
+    let token = jwt.sign({ email: userdata.email, id: User._id }, process.env.JWT_SECRET_KEY)
+
+    return token;
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+
+};
