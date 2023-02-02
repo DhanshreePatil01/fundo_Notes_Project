@@ -36,3 +36,22 @@ export const deleteNote = async (id) => {
     await Note.findByIdAndDelete(id);
     return '';
   };
+
+  //using callback
+export const addToTrash = (_id, userId, callback) =>
+{
+ Note.findByIdAndUpdate({ _id, userId: userId }, { trash: true }, { new: true }, (err, data) => {
+   if (err) return callback(err);
+   return callback(null, data);
+ });
+};
+
+//Using callback function
+export const recoverFromTrash = (_id, userId, callback) => {
+ Note.findByIdAndUpdate({ _id, userId: userId }, { trash: false }, { new: true }, (err, data) => {
+     if (err) {
+         return callback(err);
+     }
+     return callback(null, data);
+ });
+};

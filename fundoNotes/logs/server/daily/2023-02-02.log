@@ -35,3 +35,19 @@ info: Connected to the database. {"timestamp":"2023-02-02T04:24:17.373Z"}
 info: Connected to the database. {"timestamp":"2023-02-02T04:34:12.018Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T04:35:52.840Z"}
 info: Connected to the database. {"timestamp":"2023-02-02T04:35:55.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T04:42:24.952Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T04:42:28.526Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T04:43:42.971Z"}
