@@ -98,3 +98,35 @@ export const trashrecovery = (req, res, next) => {
     });
 };
 
+//using callback archive
+export const addToarchive = (req, res, next) => {
+    NoteService.addToArchive(req.params._id, req.body.userId, (error, data) => {
+        if (error)
+         {
+            return next(error);
+        }
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'node is archived'
+        });
+    });
+};
+
+//using callback recoverarchive
+export const recoverarchive = (req, res, next) => {
+    NoteService.recoverFromArchive(req.params._id, req.body.userId, (error, data) => {
+        if (error) {
+            return next(error);
+        }
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note is recovered from archived.'
+        });
+    });
+};
+
+
+
+

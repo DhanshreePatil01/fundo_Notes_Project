@@ -55,3 +55,32 @@ export const recoverFromTrash = (_id, userId, callback) => {
      return callback(null, data);
  });
 };
+
+//using callback function
+export const addToArchive = (_id, userId, callback) =>
+{
+  Note.findByIdAndUpdate({ _id, userId: userId }, { archive: true }, { new: true }, (error, data) => {
+    if (error)
+    {
+      callback(error,null);
+    } 
+    else
+    {
+      callback(null,data);
+    }
+  });
+};
+
+//Using Callback function
+export const recoverFromArchive = (_id, userId, callback) =>
+ {
+  Note.findByIdAndUpdate({ _id, userId: userId }, { archive: false }, { new: true }, (error, data) => {
+    if (error)
+    {
+      callback(error,null);
+    } else
+    {
+      callback(null, data);
+    }
+  });
+};
