@@ -28,7 +28,7 @@ export async function sendMail(email, token) {
 
     const mailOptions = {
       from: 'Dhanshree Patil <patildhanshrees6112@gmail.com>',
-      to: 'dhanshree236@gmail.com',
+      to: email,
       subject: 'Hello from gmail using API',
       text: 'Hello from dhanshree email using API',
       html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${process.env.APP_PORT}/${token}">click here</a></h1>`,
@@ -40,7 +40,3 @@ export async function sendMail(email, token) {
     return error;
   }
 }
-
-sendMail()
-  .then((result) => console.log('Email sent...', result))
-  .catch((error) => console.log(error.message));
