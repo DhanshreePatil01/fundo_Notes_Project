@@ -18,8 +18,8 @@ export const getAllUsers = async (req, res, next) => {
 export const userRegistration = async (req, res, next) => {
   try {
     const data = await UserService.userRegistration(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
       message:data,
       message: 'User Registeration Done Successfully....'
     });

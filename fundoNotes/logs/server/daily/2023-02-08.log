@@ -1,0 +1,1320 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:09:42.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.771Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.936Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.953Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.973Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.991Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:09:45.663Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:11:00.231Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.277Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.363Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.390Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.417Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.445Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:11:02.960Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:12:06.942Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:12:09.653Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:12:11.388Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:11.397Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:12:12.033Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:12.036Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:12.066Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:12.088Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:12.747Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.040Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.064Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.106Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.126Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.144Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.184Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.227Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:12:13.269Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:13:14.189Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:13:16.950Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:13:18.750Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:18.761Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:13:19.418Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:19.422Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:19.443Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:19.459Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.096Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.367Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.391Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.468Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.489Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.512Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.625Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.683Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:13:20.721Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:21:01.550Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:21:04.245Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:21:05.939Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:05.952Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:21:06.566Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:06.570Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:06.589Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:06.606Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.264Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.523Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.546Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.586Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.612Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.643Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.683Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.721Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:21:07.768Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:22:11.605Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:22:14.357Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:22:15.949Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:15.960Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:22:16.558Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.564Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.587Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.605Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.228Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.514Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.540Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.627Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.643Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.661Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.705Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.741Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.808Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:30:25.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:30:28.655Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:30:30.424Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:30.432Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:30:31.066Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.094Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.105Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.758Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.381Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.399Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:31:06.768Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:31:09.332Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:31:10.946Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:10.959Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:31:11.592Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.598Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.622Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.639Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.267Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.547Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.834Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.849Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-07T20:32:04.776Z"}
+info: Connected to the database. {"timestamp":"2023-02-07T20:32:07.504Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:32:09.262Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.272Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:32:09.883Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.911Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.928Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:10.589Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:10.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:11.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:11.217Z"}

@@ -99,3 +99,615 @@ Error: listen EADDRINUSE: address already in use :::4000
     at Function.Module._load (node:internal/modules/cjs/loader:878:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:23:47 {"date":"Fri Feb 03 2023 02:36:33 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":899065},"process":{"argv":["node","G:\\fun\\fundoNotes\\src\\index.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19461895,"external":20987172,"heapTotal":95576064,"heapUsed":67722840,"rss":136093696},"pid":18384,"uid":null,"version":"v18.12.1"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (G:\\fun\\fundoNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (G:\\fun\\fundoNotes\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (G:\\fun\\fundoNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (G:\\fun\\fundoNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (G:\\fun\\fundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-02T21:06:33.265Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"G:\\fun\\fundoNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"G:\\fun\\fundoNotes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"G:\\fun\\fundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"G:\\fun\\fundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:09:42.771Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:44:40)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:39:42 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1327663},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18961719,"external":20090353,"heapTotal":131796992,"heapUsed":106773520,"rss":174329856},"pid":4928,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:09:42.824Z","trace":[{"column":40,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:11:00.277Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:44:40)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:41:00 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1327741},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18562955,"external":19687267,"heapTotal":121229312,"heapUsed":88552008,"rss":162377728},"pid":18664,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:11:00.321Z","trace":[{"column":40,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:44:40)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:42:10 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1327811},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18807741,"external":19932073,"heapTotal":125685760,"heapUsed":93759352,"rss":169046016},"pid":9952,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:12:10.770Z","trace":[{"column":40,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:44:40)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:43:18 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1327879},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18666775,"external":19791107,"heapTotal":122015744,"heapUsed":91445304,"rss":164773888},"pid":13416,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:13:18.082Z","trace":[{"column":40,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:44:40)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:51:05 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1328346},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18296378,"external":19419394,"heapTotal":125423616,"heapUsed":86726096,"rss":166330368},"pid":12340,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:44:40)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:21:05.295Z","trace":[{"column":40,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:22:15.949Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:15.960Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:22:16.558Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.564Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.587Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:16.605Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.228Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.514Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (G:\fun\fundoNotes\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:22:17.540Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (G:\fun\fundoNotes\tests\integration\/user.test.js:175:37)
+    at Test.assert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (G:\fun\fundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 08 2023 01:52:17 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:175:37)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1328418},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","G:\\fun\\fundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"G:\\fun\\fundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18620697,"external":19745609,"heapTotal":129093632,"heapUsed":101202760,"rss":172462080},"pid":22264,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js:175:37)\n    at Test.assert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-07T20:22:17.590Z","trace":[{"column":37,"file":"G:\\fun\\fundoNotes\\tests\\integration\\/user.test.js","function":null,"line":175,"method":null,"native":false},{"column":6,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"G:\\fun\\fundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:30:30.424Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:30.432Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:30:31.066Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.094Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.105Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:31.758Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.381Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:30:32.399Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:31:10.946Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:10.959Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:31:11.592Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.598Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.622Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:11.639Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.267Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.547Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.834Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:31:12.849Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:32:09.262Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.272Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-07T20:32:09.883Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (G:\fun\fundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (G:\fun\fundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (G:\fun\fundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (G:\fun\fundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (G:\fun\fundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at G:\fun\fundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (G:\fun\fundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (G:\fun\fundoNotes\src\controllers\/user.controller.js:27:5)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.911Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:09.928Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:10.589Z"}
+error: 
+    status - 500 
+    message - Error: Error: Please Enter Valid Email....
+    at _callee3$ (G:\fun\fundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (G:\fun\fundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:10.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:11.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-07T20:32:11.217Z"}
