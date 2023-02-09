@@ -1,6 +1,6 @@
 //import { id } from '@hapi/joi/lib/base';
 import Note from '../models/note.model';
-
+import { client } from '../config/redis';
 
 export const createNote = async (body) => {
   const note = await Note.create(body);
@@ -23,6 +23,7 @@ export const updateNote = async (_id, body) => {
 export const getAll= async (userId)=>{
   const data = await Note.find({userId : userId, archive : false , trash : false});
   //console.log("user data-----------------------",data);
+  await client.set('AllNotes',JSON.stringify(data));
   return data;
 };
 
