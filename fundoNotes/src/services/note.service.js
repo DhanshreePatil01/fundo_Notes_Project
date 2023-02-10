@@ -29,6 +29,7 @@ export const getAll= async (userId)=>{
 
 export const getById = async (_id,userId) => {
   const data = await Note.findById(_id,userId);
+  await client.set('SingleNotes',JSON.stringify(data));
   return data;
 };
 

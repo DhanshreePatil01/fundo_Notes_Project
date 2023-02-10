@@ -2,7 +2,7 @@ import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { NoteValidator } from '../validators/note.validator';
 import { userAuth } from '../middlewares/auth.middleware';
-import {redisForGetall} from '../middlewares/redis.middleware';
+import {redisForGetall,redisForGetOne} from '../middlewares/redis.middleware';
 
 const router = express.Router();
 
@@ -16,7 +16,7 @@ router.put('/:_id', userAuth, noteController.updateNote);
 router.get('/', userAuth,redisForGetall, noteController.getAll)
 
 //routes to get a note by id
-router.get('/:_id', userAuth, noteController.getById)
+router.get('/:_id', userAuth, redisForGetOne, noteController.getById)
 
 //route to delete a note
 router.delete('/:_id', userAuth, noteController.deleteNote)
