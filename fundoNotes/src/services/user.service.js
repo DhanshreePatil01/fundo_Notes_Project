@@ -2,12 +2,13 @@ import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 import jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/app';
+import * as ra from '../utils/rabbitmq'
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
   return data;
 };
-
 
 //create new user
 export const userRegistration = async (body) => {
@@ -16,6 +17,8 @@ export const userRegistration = async (body) => {
     const salt = await bcrypt.genSalt(10);
     body.password = await bcrypt.hash(body.password, salt);
     const data = await User.create(body);
+    const dataRabbit=JSON.stringify(data);
+    ra.producer('RegistrationData',dataRabbit);
     return data;
   }
   else {

@@ -4,7 +4,7 @@ const { google } = require('googleapis');
 const CLIENT_ID = '287808356118-92u5d6e6cp9ph5635qtcenjpasvu8348.apps.googleusercontent.com';
 const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04qOft-SCh1i9CgYIARAAGAQSNwF-L9IrGKRH3bUFBLpP7ebu3HaqN1wF4B2VT4DyQbpbcz5iOhDIvitvdPJ51icbCuz21PYImkE';
+const REFRESH_TOKEN = '1//04F4yAmDF_2MjCgYIARAAGAQSNwF-L9IrCq3DOm6lS-taHTrEqertEXe03y9rr8E7sXgcQ51mbo15eRzhPO9pyY_SMDiF_em30gQ';
 
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID,CLIENT_SECRET,REDIRECT_URI);
 
@@ -40,3 +40,37 @@ export async function sendMail(email, token) {
     return error;
   }
 }
+
+export async function sendMailToRegisteredUser(email, firstname, lastname) {
+  try {
+      const accessToken = await oAuth2Client.getAccessToken();
+
+      const transport = nodemailer.createTransport({
+          service: 'gmail',
+          auth: {
+              type: 'OAuth2',
+              user: 'patildhanshrees6112@gmail.com',
+              clientId: CLIENT_ID,
+              clientSecret: CLIENT_SECRET,
+              refreshToken: REFRESH_TOKEN,
+              accessToken: accessToken
+          }
+      });
+
+      const mailOptions = {
+          from: 'Dhanshree Patil <patildhanshrees6112@gmail.com',
+          to: email,
+          subject: 'Registration is Successfull',
+          text: `Hi, ${firstname} ${lastname} you are successfully registered....`,
+      };
+
+      const result = await transport.sendMail(mailOptions)
+      //console.log('=========>>>>', result);
+      return result;
+
+  } catch (error) {
+      return error;
+
+  }
+}
+
